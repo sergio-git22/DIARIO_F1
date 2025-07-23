@@ -162,21 +162,22 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     text-align: center;
-    background-color: #ffffff;
-    color: #1e1e1e;
-    gap: 20px;
+    background-color: #121212;
+    color: #ffffff;
     padding: 5px;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
     padding-left: 1rem;
     border-radius: 5px;
 }
 
-.especial img {
-    max-width: 600px;
-    height: auto;
-    object-fit: cover;
+#especial1 {
+    width: 100%;
+    height: 900px;
+    background-image: url(https://i.redd.it/pmpohcx2zz751.jpg);
+    background-position: 70% 20%;
+    zoom: 30%;
     border-radius: 5px;
 }
 
@@ -184,16 +185,24 @@ main {
     font-size: 1.8rem;
     padding-bottom: 0.3rem;
     margin-bottom: 1rem;
-    border-bottom: 2px solid #1e1e1e;
+    border-bottom: 2px solid #ffffff;
+    width: 100%;
+    text-align: start;
 }
 
 .especial h3 {
-    font-size: 1.5rem;
+    font-size: 4.5rem;
+    font-style: italic;
+    background-color: #0e0d0d91;
+    padding: 5px;
+    margin-left: 4rem;
+    border-radius: 5px;
+    max-width: 40%;
 }
 
-.especial p:hover {
+.especial h3:hover {
     cursor: pointer;
-    text-decoration: underline;
+    background-color: #121212;
 }
 
 /* SECCIÓN FICHAJES */
