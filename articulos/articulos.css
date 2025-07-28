@@ -139,6 +139,32 @@ main {
     text-align: justify;
 }
 
+#tempo_piastri {
+    margin: 0 auto;
+    max-width: 80%;
+    height: 200px;
+}
+
+#tempo_piastri:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+#norris {
+    margin: 0 auto;
+    max-width: 80%;
+    height: 200px;
+}
+
+.articulo h3 {
+    margin-bottom: 1px;
+}
+
+#norrisVSpiastri {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
 /* FOOTER */
 footer {
     background-color: #1c1c1c;
