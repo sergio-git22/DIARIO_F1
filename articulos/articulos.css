@@ -121,7 +121,7 @@ main {
     margin-top: 5px;
 }
 
-#nor_pia {
+#nor_pia, #hulk {
     max-width: 100%;
     height: 450px;
     border-radius: 5px;
@@ -131,15 +131,15 @@ main {
 .articulo {
     display: flex;
     flex-direction: column;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .articulo p {
     text-align: justify;
 }
 
-#tempo_piastri {
+#tempo_piastri, #statsHulk {
     margin: 0 auto;
     max-width: 80%;
     height: 200px;
@@ -148,6 +148,18 @@ main {
 #tempo_piastri:hover {
     cursor: pointer;
     transform: scale(1.5);
+}
+
+#statsHulk:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+#hulkRenault {
+    margin: 0 auto;
+    border-radius: 5px;
+    max-width: 70%;
+    height: 150px;
 }
 
 #norris {
@@ -163,6 +175,11 @@ main {
 #norrisVSpiastri {
     margin: 0 auto;
     max-width: 80%;
+}
+
+#postHulk {
+    margin: 0 auto;
+    height: 150px;
 }
 
 /* FOOTER */
