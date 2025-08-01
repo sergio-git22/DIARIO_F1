@@ -127,6 +127,12 @@ main {
     border-radius: 5px;
 }
 
+#lec_ham {
+    max-width: 100%;
+    height: 350px;
+    border-radius: 5px;
+}
+
 /* ARTÍCULO */
 .articulo {
     display: flex;
@@ -139,7 +145,7 @@ main {
     text-align: justify;
 }
 
-#tempo_piastri, #statsHulk {
+#tempo_piastri, #statsHulk, #jefesFerrari {
     margin: 0 auto;
     max-width: 80%;
     height: 200px;
@@ -162,7 +168,7 @@ main {
     height: 150px;
 }
 
-#norris {
+#norris, #ferrari2025 {
     margin: 0 auto;
     max-width: 80%;
     height: 200px;
@@ -172,7 +178,7 @@ main {
     margin-bottom: 1px;
 }
 
-#norrisVSpiastri {
+#norrisVSpiastri, #ferrari {
     margin: 0 auto;
     max-width: 80%;
 }
