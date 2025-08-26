@@ -50,10 +50,6 @@ nav li a:hover {
     color: #d40000;
 }
 
-#noticias {
-    color: #d40000;
-}
-
 /* ASIDE PUBLICIDAD */
 aside.publi-izq, aside.publi-der {
     position: fixed;
@@ -85,107 +81,6 @@ aside.publi-izq, aside.publi-der {
 .publicidad img:hover {
     cursor: pointer;
     filter: brightness(1.5);
-}
-
-/* CONTENEDOR PRINCIPAL */
-main {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 900px;
-    padding: 2rem 1rem;
-    box-sizing: border-box;
-}
-
-/* ENCABEZADO */
-.encabezado {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.encabezado p {
-    color: #c0c0c0c1;
-    margin-top: 0.1rem;
-}
-
-#autor {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 0.9rem;
-}
-
-#pieFoto {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 0.9rem;
-    margin-top: 5px;
-}
-
-#nor_pia, #hulk {
-    max-width: 100%;
-    height: 450px;
-    border-radius: 5px;
-}
-
-#lec_ham {
-    max-width: 100%;
-    height: 350px;
-    border-radius: 5px;
-}
-
-/* ARTÍCULO */
-.articulo {
-    display: flex;
-    flex-direction: column;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.articulo p {
-    text-align: justify;
-}
-
-#tempo_piastri, #statsHulk, #jefesFerrari {
-    margin: 0 auto;
-    max-width: 80%;
-    height: 200px;
-}
-
-#tempo_piastri:hover {
-    cursor: pointer;
-    transform: scale(1.5);
-}
-
-#statsHulk:hover {
-    cursor: pointer;
-    transform: scale(1.5);
-}
-
-#hulkRenault {
-    margin: 0 auto;
-    border-radius: 5px;
-    max-width: 70%;
-    height: 150px;
-}
-
-#norris, #ferrari2025 {
-    margin: 0 auto;
-    max-width: 80%;
-    height: 200px;
-}
-
-.articulo h3 {
-    margin-bottom: 1px;
-}
-
-#norrisVSpiastri, #ferrari {
-    margin: 0 auto;
-    max-width: 80%;
-}
-
-#postHulk {
-    margin: 0 auto;
-    height: 150px;
 }
 
 /* FOOTER */
