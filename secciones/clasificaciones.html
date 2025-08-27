@@ -42,13 +42,84 @@
       </aside>
 
       <!-- CONTENIDO -->
-       <main></main>
+       <main>
+        <h3>Último GP: Hungría</h3>
+        <section id="clasificacion">
+            <!-- PESTAÑAS -->
+             <div class="tabs">
+                <button class="tab-button active" onclick="mostrarTabla('pilotos')">Pilotos</button>
+                <button class="tab-button" onclick="mostrarTabla('equipos')">Equipos</button>
+             </div>
+
+             <!-- PILOTOS -->
+              <div id="pilotos" class="tab-content">
+                <table class="tabla-clasificacion">
+                    <thead>
+                        <tr>
+                            <th>Posición</th>
+                            <th>Equipo</th>
+                            <th>País</th>
+                            <th>Piloto</th>
+                            <th>Puntos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>McLaren</td>
+                            <td>Australia</td>
+                            <td>Oscar Piastri</td>
+                            <td>284</td>
+                        </tr>
+                    </tbody>
+                </table>
+              </div>
+
+              <!-- EQUIPOS -->
+               <div id="equipos" class="tab-content" style="display: none;">
+                <table class="tabla-clasificacion">
+                    <thead>
+                        <tr>
+                            <th>Posición</th>
+                            <th>Logo</th>
+                            <th>País</th>
+                            <th>Equipo</th>
+                            <th>Puntos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Logo</td>
+                            <td>Reino Unido</td>
+                            <td>McLaren</td>
+                            <td>559</td>
+                        </tr>
+                    </tbody>
+                </table>
+               </div>
+        </section>
+       </main>
 
       <!-- FOOTER -->
         <footer>
             <p>&copy; 2025 ABRIENDO DRS. Todos los derechos reservados.</p>
             </div>
         </footer>
+
+        <!-- JS DE PESTAÑAS -->
+         <script>
+            function mostrarTabla(tab) {
+                // Ocultar las tablas
+                document.querySelectorAll('.tab-content').forEach(el => el.style.display = 'none');
+                // Desactivar los botones
+                document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+                // Mostrar la tabla que pulses
+                document.getElementById(tab).style.display = 'block';
+                // Activar el botón que pulses
+                event.currentTarget.classList.add('active');
+            }
+         </script>
     
 </body>
 </html>
