@@ -148,7 +148,7 @@ section#clasificacion h2 {
 }
 
 .tabla-clasificacion {
-    width: 90%;
+    width: 60%;
     max-width: 800px;
     margin: 0 auto 2rem auto;
     border-collapse: collapse;
@@ -164,14 +164,60 @@ section#clasificacion h2 {
 
 .tabla-clasificacion th,
 .tabla-clasificacion td {
-    padding: 0.75rem;
+    padding: 0.2rem;
     border: 1px solid #444;
     text-align: center;
+}
+
+/* ANCHO DE LAS COLUMNAS */
+.tabla-clasificacion td:nth-child(1),
+.tabla-clasificacion th:nth-child(1) {
+    width: 10px; /* Posición */
+}
+
+.tabla-clasificacion td:nth-child(2),
+.tabla-clasificacion th:nth-child(2) {
+    width: 30px; /* Logo */
+}
+
+.tabla-clasificacion td:nth-child(3),
+.tabla-clasificacion th:nth-child(3) {
+    width: 40px; /* País */
+}
+
+.tabla-clasificacion td:nth-child(4),
+.tabla-clasificacion th:nth-child(4) {
+    width: 150px; /* Piloto o equipo */
+}
+
+.tabla-clasificacion td:nth-child(5),
+.tabla-clasificacion th:nth-child(5) {
+    width: 50px; /* Puntos */
 }
 
 .tabla-clasificacion tbody tr:hover {
     background-color: #2a2a2a;
     transition: background-color 0.3s ease;
+}
+
+.tabla-clasificacion tbody td {
+    padding: 0.2rem 0.3rem;
+    border: 1px solid #444;
+    text-align: center;
+}
+
+.logo {
+    width: 40%;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.bandera {
+    width: 40%;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
 }
 
 /* FOOTER */
@@ -197,5 +243,17 @@ footer {
 
     main {
         padding: 1rem;
+    }
+
+    .tabla-clasificacion {
+        width: 100%;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .bandera {
+        width: 50%;
     }
 }
