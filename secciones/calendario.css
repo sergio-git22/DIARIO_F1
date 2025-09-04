@@ -96,7 +96,6 @@ section {
     display: grid;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     padding: 5px;
     margin-bottom: 2rem;
     padding-left: 1rem;
@@ -104,7 +103,9 @@ section {
 
 /* CAJA DE GRAN PREMIO */
 .gp {
+    margin: 0 auto;
     height: 105px;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -126,7 +127,7 @@ section {
 
 .bandera {
     width: 50px;
-    height: auto;
+    height: 25px;
     border-radius: 50%;
 }
 
@@ -137,6 +138,7 @@ section {
 
 .cabecera {
     width: 20%;
+    padding-top: 0.5rem;
     border-right: 3px solid #d40000;
 }
 
